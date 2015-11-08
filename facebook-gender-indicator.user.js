@@ -25,9 +25,9 @@ GENDER.tableRows = [];
 	
 GENDER.CONFIG = {
 	'debug': true, // switch to true to debug.
-    'gdocs_key': '16EEZTDrHL4WQyDYAmG8S4nKrIYnyQbMhRO70fcDnWpQ',
+    'gdocs_key': '10Rr0QtbSOQerfsty1YIz_gczOQEgQstpUc4fybLDegI',
 	'gform_key': 'XXX',
-	'gdocs_development_key': '16EEZTDrHL4WQyDYAmG8S4nKrIYnyQbMhRO70fcDnWpQ',
+	'gdocs_development_key': '10Rr0QtbSOQerfsty1YIz_gczOQEgQstpUc4fybLDegI',
     'gform_development_key': 'XXX',
 };
 
