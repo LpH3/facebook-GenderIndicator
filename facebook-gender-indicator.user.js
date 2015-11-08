@@ -158,7 +158,7 @@ GENDER.searchDOM = function() {
 						user_listing = GENDER.tableRows[ix].parentNode; // the table row of user listing
 					}
 				}
-				var user_string = user_listing.childNodes[3].innerHTML + " | " + user_listing.childNodes[4].innerHTML + " | " + user_listing.childNodes[5].innerHTML;
+				var user_string = user_listing.childNodes[3].innerHTML + " | " + user_listing.childNodes[5].innerHTML;
 				me.innerHTML = user_string;
 				me.setAttribute("data-setGender", "yes");
 			}
