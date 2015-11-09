@@ -6,7 +6,7 @@
  */
 // ==UserScript==
 // @name           Gender Indicator for Facebook
-// @version        0.2.1
+// @version        0.2.2
 // @updateURL      https://github.com/lph3/facebook-GenderIndicator/raw/master/facebook-gender-indicator.user.js
 // @description    Lets the little popup card show your preferred name and gender
 // @include		   https://www.facebook.com/*
