@@ -24,7 +24,7 @@ GENDER.ellipsis = [];
 GENDER.tableRows = [];
 	
 GENDER.CONFIG = {
-	'debug': false, // switch to true to debug.
+	'debug': true, // switch to true to debug.
     'gdocs_key': '10Rr0QtbSOQerfsty1YIz_gczOQEgQstpUc4fybLDegI',
 	'gform_key': 'XXX',
 	'gdocs_development_key': '10Rr0QtbSOQerfsty1YIz_gczOQEgQstpUc4fybLDegI',
