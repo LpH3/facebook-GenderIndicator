@@ -32,8 +32,12 @@ harm your system or steal your information.
 
 [Download Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
-With the add-on installed, you will be able to load the userscript by clicking [this link](https://github.com/LpH3/facebook-GenderIndicator/raw/master/facebook-gender-indicator.user.js).
-The script should auto-update.
+With the add-on installed, you will be able to load the userscript by clicking the link below.
+
+[Get the script](https://github.com/LpH3/facebook-GenderIndicator/raw/master/facebook-gender-indicator.user.js)
+
+Later on you should be able to update the script through your add-on.
+By default it will update for you on its own.
 
 At this moment, the script is only effective on the browser version of Facebook, and makes use
 of the "notecard" feature. Later version may attempt to include more features, including
