@@ -6,7 +6,7 @@
  */
 // ==UserScript==
 // @name           Gender Indicator for Facebook
-// @version        0.2.2
+// @version        0.2.3
 // @updateURL      https://github.com/lph3/facebook-GenderIndicator/raw/master/facebook-gender-indicator.user.js
 // @description    Lets the little popup card show your preferred name and gender
 // @include		   https://www.facebook.com/*
@@ -156,10 +156,12 @@ GENDER.searchDOM = function() {
 				for (var ix = 0; ix < GENDER.tableRows.length; ix++) {
 					if (id === GENDER.tableRows[ix].innerHTML) {
 						user_listing = GENDER.tableRows[ix].parentNode; // the table row of user listing
+						GENDER.log("listing set");
 					}
 				}
-				var user_string = user_listing.childNodes[3].innerHTML + "  |  " + user_listing.childNodes[5].innerHTML;
+				var user_string = user_listing.childNodes[3].innerHTML + "  |  " + user_listing.childNodes[4].innerHTML;
 				me.innerHTML = user_string;
+				GENDER.log("string: " + user_string);
 				me.setAttribute("data-setGender", "yes");
 			}
 		}
